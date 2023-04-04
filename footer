@@ -1,0 +1,48 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Subscribe to our newsletter</h4>
+        <p>Join our mailing list to receive updates and exclusive offers straight to your inbox.</p>
+      </div>
+      <div class="col-md-6">
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="footer-subtitle">Don't miss out on our latest news and promotions - subscribe today!</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-right: 10px;
+  }
+
+  .footer-subtitle {
+    font-style: italic;
+    margin-top: 20px;
+  }
+</style>
