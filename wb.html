@@ -9,7 +9,7 @@
         justify-content: flex-end;
         align-items: center;
         height: 80px;
-        background-color: #f0f0f0;
+        background-color: #ffffff;
       }
       
       nav ul {
@@ -18,20 +18,20 @@
       }
       
       nav li {
-        margin-right: 20px;
+        margin-right: 10px;
       }
       
       nav a {
         text-decoration: none;
-        color: #333;
-        font-size: 18px;
+        color: #000000;
+        font-size: 20px;
         display: flex;
         align-items: center;
       }
       
       h1 {
         margin-right: auto;
-        font-size: 24px;
+        font-size: 25px; 
       }
       
       nav a i {
@@ -39,21 +39,57 @@
       }
       
       .fab {
-        font-size: 24px;
+        font-size: 20px;
       }
+
+      .fab.fa-custom::before {
+        content: "";
+        background-image: url('shop-bag.svg');
+        background-size: contain;
+        display: inline-block;
+        height: 21px;
+        width: 21px;
+        margin-right: 2px;
+      }
+
+      .hero {
+        background-image: url('bg01.jpg');
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #ffffff;
+        text-align: center;
+      }
+
+      .hero h2 {
+        font-size: 60px;
+        margin-bottom: 5px;
+      }
+
+      .hero p {
+        font-size: 20px;
+      }
+
     </style>
   </head>
   <body>
     <header>
-      <h1>Walking the Narrow Road: A Journey of Faith</h1>
+      <h1>lamguara</h1>
       <nav>
         <ul>
           <li><a href="https://www.instagram.com/sal_lumos_dly_journal/"><i class="fab fa-instagram"></i>Instagram</a></li>
           <li><a href="https://www.youtube.com/@lamguara2319"><i class="fab fa-youtube"></i>YouTube</a></li>
-          <li><a href="https://www.redbubble.com/people/lamguara/shop"><i class="fab fa-redbubble"></i>Redbubble</a></li>
+          <li><a href="https://www.redbubble.com/people/lamguara/shop"><i class="fab fa-custom"></i>Redbubble</a></li>
         </ul>
       </nav>
     </header>
+    <section class="hero">
+      <h2>Walking the Narrow Road: A Journey of Faith</h2>
+      <p>Written by: Andrea Lampa</p>
+    </section>
     <!-- the rest of your webpage content goes here -->
   </body>
 </html>
